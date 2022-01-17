@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 0 140px;
+    margin-bottom: 50px;
+}
+.header .image{
+width: 90px;
+height: 60px;
+object-fit: contain;
+background-color: #333;
+}
+.header .image img{
+    width: 100%;
+    object-fit: cover;
+}
+.tses{
+    padding-left: 200px;
+}
+.tses li{
+    display: inline-block;
+    font-weight: 400;
+    padding: 0px 9px;
+    padding-top: 1px solid rgb(105, 103, 103);
+}
+.tses li a{
+    color: white;
+    text-decoration: none;
+    transition: 2s;
+}
+.tses li:hover a{
+    max-height: 1px solid rgb(37, 37, 37);
+    color:  #575757;
+    border-top: #575757 1px solid;}
+.main{ 
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left:10px ;
+
+}
+.search  i{
+    position: absolute;
+    font-size: 19px;
+    color: white;
+}
+.tses1{
+    display: none;
+}
+#checkbox:checked ~ .tses1{
+    display: block;
+}
+#checkbox{
+    display: none;
+}
+.tses1 li{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}   
+.text{
+    color: white;
+}
+#text{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/iphone-11Pro-2500x700.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    width: 300px;
+    display: block;
+    padding-top: 200px;
+}
+.a1{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    line-height: 60px;
+    font-size: 15px;
+}
+.text .a1 a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #03a9f4;
+}
+.a2{
+    display: flex;
+    color: #bac5d0;
+    font-size: 25px;
+    justify-content: center;
+}
+#text1{
+    background-image: url(/img/iphone-11-2500x700-black-1.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+.body2{
+    display: flex;
+    height: 120vh;
+    background-color: white;
+    justify-content: space-between;
+    padding-left: 70px;
+    margin-bottom: 40px;
+}
+
+.right{
+    background-image: url(/img/iup-overview-landing-hero-201809.png);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    object-fit: contain;
+    margin-top: 140px;
+}
+.a{
+    line-height: 40px;
+    font-size: 13px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.a3{
+    color: #494949;
+    font-size: 18px;
+    text-align: center;
+}
+.a a{
+    text-decoration: none;
+    color: #03a9f4;
+    font-size: 19px;
+}
+.left{
+    float: left;
+    width: 50%;
+    padding-top: 300px;
+}
+.body3{
+    width: 100%;
+    height: 120vh;
+    background-color: #dbd8d8;
+    text-align: center;
+    padding-top: 40px;
+}
+.here{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+    gap: 50px;
+}
+.here .pod{
+    background-color: white;
+    height: 90vh;
+    width: 550px;
+    padding-top: 20px;
+}
+.here .pod .a{
+    font-weight: bold;
+    font-size: 30px;
+}
+.here .pod .a1 a{
+    text-decoration: none;
+    color: #03a9f4;
+}
+.here .pod .ipod{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.here .pod .ipod img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding-left: 50px;
+}
+.here .watch{
+    background-color: white;
+    height: 90vh;
+    width: 550px;
+    padding-top: 20px;
+}
+.here .watch .a{
+    font-weight: bold;
+    font-size: 30px;
+}
+.here .watch .a1 a{
+    text-decoration: none;
+    color: #03a9f4;
+}
+.here .watch .iwatch{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.here .watch .iwatch img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding-left: 50px;
+}
+.here .pod .ipod:hover .l{
+    transform: scale(1.2);
+}
+.here .watch .iwatch:hover .l{
+    transform: scale(1.2);
+}
+.menu1 {
+    width:100%;
+    display:block;
+    justify-content: center;
+    padding:20px 0;
+}
+.menu1 .medee{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+.menu1 .medee1{
+    text-align: center;
+    font-size: 20px;
+    color: #504e4e;
+    margin-bottom: 20px;
+}
+.menu2{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    gap: 30px;
+    justify-content: center;
+}
+.menu2 .footer{
+    width: 220px;
+    height: 150px;
+    object-fit: cover;
+}
+.footer img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.menu2 .footer img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+    box-shadow: 3px 1px 2px 2px;
+}
+.menu2 .footer a{
+    text-decoration: none;
+    font-size: 16px;
+    word-spacing:15px;
+    line-height: 10px;
+    font-weight: 800;
+    color:  #024bf7;
+}
+.menu2 .footer a:hover{
+    color:  #628ef3;
+    transition: .3s ease-in;
+}
+.class{
+    background-color: #303337;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.class .b{
+    color: #575757;
+}
+.class .b1 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class1{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #2c2c2c;
+    gap: 20px;
+    word-spacing: 10px;
+    line-height: 30px;
+    color: #eaeaea;
+}
+.class1 .suul{
+    width: 220px;
+    height: 480px;
+}
+.class1 .suul .ami{
+    height: 15%;
+    object-fit: cover;
+}
+.class1 .suul .am{
+    width:  50% ;
+}
+.class1 .suul h2{
+    color: #eaeaea;
+    word-spacing: 10px;
+    line-height: 30px;
+}
+.class1 a i{
+    padding-top: 40px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #eaeaea;
+    letter-spacing: 2px;   
+     border-bottom: 1px solid gray;
+     align-items: center;
+}
+.class1 ul li{
+    list-style: none;
+    letter-spacing: 2px;
+    line-height:100px;
+    word-spacing: 18px;
+    font-style: italic;
+}
+.class1 a i:hover{
+    color: #5381ec;
+    transition: .2s;
+}
+.class1 ul li:hover{
+    cursor: pointer;
+    color: #5381ec;
+    transition: .2s;
+}
+.class2{
+    width: 100%;
+    height: 80px;
+    background-color: #1d1e1f;
+    color: #eaeaea;
+    text-align: center;
+    padding-top: 35px;
+}
+.class1 span i:hover{
+    cursor: pointer;
+}
